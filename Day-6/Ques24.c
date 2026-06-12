@@ -9,7 +9,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         result*=x;
+        printf("%d^%d = %d\n",x,n,result);
     }
-     printf("%d^%d = %d\n",x,n,result);
     return 0;
 }
